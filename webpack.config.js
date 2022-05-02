@@ -9,7 +9,7 @@ module.exports = {
     mode: isDevelopment ? 'development' : 'production',
     target: isDevelopment ? 'web' : 'browserslist',
     entry: {
-        main: path.resolve(__dirname, 'src', 'index.js'),
+        index: path.resolve(__dirname, 'src', 'index.js'),
     },
     output: {
         filename: 'js/[name].min.js',
